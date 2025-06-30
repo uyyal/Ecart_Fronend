@@ -1,0 +1,123 @@
+.AdminViewItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align cards */
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-top: 60px; /* Ensure content doesn't hide under navbar */
+}
+
+.card1 {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 0;
+}
+
+.card1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Thumbnail {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.description {
+  padding: 15px;
+}
+
+.description h4 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+}
+
+#cost {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.h {
+  color: #d9534f;
+  margin: 8px 0;
+}
+
+.p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+.sp {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.warning, .danger {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.warning {
+  background-color: #f0ad4e;
+}
+
+.danger {
+  background-color: #d9534f;
+}
+
+/* Responsive for medium screens */
+@media (max-width: 1024px) {
+  .card1 {
+    width: 45%;
+  }
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+  .card1 {
+    width: 80%;
+  }
+}
+
+/* Responsive for small devices */
+@media (max-width: 480px) {
+  .card1 {
+    margin-top: 100px;
+    width: 95%;
+  }
+
+  .description h4 {
+    font-size: 1em;
+  }
+
+  .warning, .danger {
+    font-size: 0.8em;
+    padding: 8px 12px;
+  }
+}

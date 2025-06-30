@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.UserBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, #d2001a, #7462ff, #ed21f4, #d5c923);
+  background-size: 300% 300%;
+  animation: color 5s ease-in-out infinite;
+  padding: 20px;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.user_img {
+  height: auto;
+  max-width: 100%;
+  border: 2px solid grey;
+  border-radius: 50px;
+  background-size: contain;
+}
+
+.UserLogin {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #ffffffc0;
+  padding: 30px;
+  box-shadow: 0px 0px 50px rgba(128, 128, 128, 0.5);
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.big2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 23px;
+  color: aqua;
+}
+
+.label2 {
+  font-size: 17px;
+  font-family: cursive;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.input2 {
+  border-radius: 20px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0 15px;
+  width: 100%;
+  border: 2px solid #ccc;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper input {
+  padding-right: 40px;
+}
+
+.password-wrapper span {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn2 {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+}
+
+.btn2:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.img2 {
+  height: 80px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.form2 p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.spann {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .UserBody {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .UserLogin {
+    width: 90%;
+  }
+  .user_img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form2 p {
+    font-size: 20px;
+  }
+  .input2 {
+    font-size: 16px;
+  }
+  .btn2 {
+    font-size: 16px;
+  }
+  .spann {
+    font-size: 16px;
+  }
+  .img2 {
+    height: 60px;
+  }
+}

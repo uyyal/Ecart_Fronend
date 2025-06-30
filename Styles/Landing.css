@@ -1,0 +1,150 @@
+/* Keyframe bounce animation */
+@keyframes bounce {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateY(80px);
+    }
+}
+
+/* Keyframe background gradient animation */
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+/* Page Container */
+#page {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff, #00d2ff, #00ff8c);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+    cursor: pointer;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Admin and User section animations */
+.admin, .user {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding: 20px;
+    height: 300px;
+    box-shadow: 0px 0px 30px grey;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.admin img, .user img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.ad,.us {
+    text-align: center;
+    /* font-size: 22px; */
+    color: white;
+    font-weight: bold;
+}
+
+/* Remove text-decoration from links */
+.admin a, .user a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Admin Section - Hover effect */
+/* .admin:hover {
+    transform: translateY(-10px);
+} */
+
+/* User Section - Hover effect */
+/* .user:hover {
+    transform: translateY(-10px);
+} */
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and below (max-width: 1024px) */
+@media (max-width: 1024px) {
+    #page {
+        padding: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .admin, .user {
+        height: 200px;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .admin img, .user img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .ad,.us {
+        font-size: 23px;
+    }
+}
+
+/* For smaller tablets and mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    #page {
+        padding: 60px;
+    }
+
+    .admin, .user {
+        height: 200px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .admin img, .user img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .ad,.us {
+        font-size: 22px;
+    }
+}
+
+/* For very small devices (max-width: 480px) */
+@media (max-width: 480px) {
+    #page {
+        padding: 40px;
+    }
+
+    .admin, .user {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .admin img, .user img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .ad,.us {
+        font-size: 19px;
+    }
+}

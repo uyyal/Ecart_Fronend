@@ -1,0 +1,526 @@
+{
+  "Items": [
+    {
+      "id": "1001",
+      "category": "Dress Material",
+      "productname": "Women's Silk Saree",
+      "productprice": "2999.99",
+      "desc": "Traditional silk saree with intricate embroidery work, perfect for special occasions",
+      "thumbnail": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.8"
+    },
+    {
+      "Category": "Mobile",
+      "productname": "Premium Smartphone X12",
+      "productprice": "49999.99",
+      "desc": "Latest flagship smartphone with 108MP camera and 5G connectivity",
+      "thumbnail": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.4",
+      "id": "1002"
+    },
+    {
+      "id": "1004",
+      "Category": "Electronics",
+      "productname": "4K Smart TV",
+      "productprice": "42999.99",
+      "desc": "55-inch 4K Ultra HD Smart LED TV with HDR support",
+      "thumbnail": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.7"
+    },
+    {
+      "id": "1005",
+      "Category": "Groceries",
+      "productname": "Organic Quinoa Pack",
+      "productprice": "399.99",
+      "desc": "1kg premium organic quinoa, high in protein and nutrients",
+      "thumbnail": "https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.6"
+    },
+    {
+      "id": "1006",
+      "Category": "Dress Material",
+      "productname": "Men's Formal Suit",
+      "productprice": "7999.99",
+      "desc": "Classic black formal suit with modern slim fit design",
+      "thumbnail": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.8"
+    },
+    {
+      "id": "1007",
+      "Category": "Mobile",
+      "productname": "Budget Phone Y20",
+      "productprice": "12999.99",
+      "desc": "Feature-rich budget smartphone with 5000mAh battery",
+      "thumbnail": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.4"
+    },
+    {
+      "id": "1008",
+      "Category": "Mobile Accessories",
+      "productname": "Premium Earbuds",
+      "productprice": "9999.99",
+      "desc": "True wireless earbuds with active noise cancellation",
+      "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.7"
+    },
+    {
+      "id": "1009",
+      "Category": "Electronics",
+      "productname": "Gaming Laptop",
+      "productprice": "89999.99",
+      "desc": "High-performance gaming laptop with RTX graphics",
+      "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.9"
+    },
+    {
+      "id": "1010",
+      "Category": "Groceries",
+      "productname": "Organic Tea Set",
+      "productprice": "499.99",
+      "desc": "Premium organic tea collection with 5 varieties",
+      "thumbnail": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "ratings": "4.6"
+    },
+    {
+      "id": "1",
+      "Category": "mobile",
+      "productname": "iPhone 14 Pro",
+      "productprice": 999.99,
+      "desc": "Latest iPhone with A16 Bionic chip and Dynamic Island",
+      "thumbnail": "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb",
+      "ratings": 4.8
+    },
+    {
+      "id": "3",
+      "Category": "groceries",
+      "productname": "Organic Quinoa",
+      "productprice": 12.99,
+      "desc": "Premium organic quinoa grains, 1kg pack",
+      "thumbnail": "https://images.unsplash.com/photo-1586201375761-83865001e31c",
+      "ratings": 4.3
+    },
+    {
+      "id": "4",
+      "Category": "mobile accessories",
+      "productname": "Wireless Charger",
+      "productprice": 29.99,
+      "desc": "15W fast wireless charging pad",
+      "thumbnail": "https://images.unsplash.com/photo-1586495777744-4413f21062fa",
+      "ratings": 4.2
+    },
+    {
+      "id": "5",
+      "Category": "electronics",
+      "productname": "Smart TV 55\"",
+      "productprice": 699.99,
+      "desc": "4K UHD Smart LED TV with HDR",
+      "thumbnail": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1",
+      "ratings": 4.6
+    },
+    {
+      "id": "6",
+      "Category": "mobile",
+      "productname": "Samsung Galaxy S23",
+      "productprice": 899.99,
+      "desc": "Latest Samsung flagship with 108MP camera",
+      "thumbnail": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+      "ratings": 4.7
+    },
+    {
+      "id": "7",
+      "Category": "dress material",
+      "productname": "Cotton Kurta Set",
+      "productprice": 45.99,
+      "desc": "Comfortable cotton kurta with palazzo",
+      "thumbnail": "https://images.unsplash.com/photo-1583391733956-6c78276477e2",
+      "ratings": 4.4
+    },
+    {
+      "id": "8",
+      "Category": "groceries",
+      "productname": "Extra Virgin Olive Oil",
+      "productprice": 19.99,
+      "desc": "Premium Italian olive oil, 500ml",
+      "thumbnail": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5",
+      "ratings": 4.6
+    },
+    {
+      "id": "9",
+      "Category": "mobile accessories",
+      "productname": "Phone Case",
+      "productprice": 19.99,
+      "desc": "Shockproof protective case",
+      "thumbnail": "https://images.unsplash.com/photo-1541877944-ac82a091518a",
+      "ratings": 4.3
+    },
+    {
+      "id": "10",
+      "Category": "electronics",
+      "productname": "Bluetooth Speaker",
+      "productprice": 79.99,
+      "desc": "Portable waterproof speaker",
+      "thumbnail": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc9",
+      "ratings": 4.5
+    },
+    {
+      "id": "11",
+      "Category": "mobile",
+      "productname": "Google Pixel 7",
+      "productprice": 799.99,
+      "desc": "Pure Android experience with great camera",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "ratings": 4.6
+    },
+    {
+      "id": "12",
+      "Category": "dress material",
+      "productname": "Linen Dress",
+      "productprice": 59.99,
+      "desc": "Summer collection linen dress",
+      "thumbnail": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+      "ratings": 4.3
+    },
+    {
+      "id": "13",
+      "Category": "groceries",
+      "productname": "Organic Honey",
+      "productprice": 15.99,
+      "desc": "Pure organic honey, 500g",
+      "thumbnail": "https://images.unsplash.com/photo-1587049352846-4a222e784d38",
+      "ratings": 4.7
+    },
+    {
+      "id": "14",
+      "Category": "mobile accessories",
+      "productname": "Power Bank",
+      "productprice": 49.99,
+      "desc": "20000mAh fast charging power bank",
+      "thumbnail": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5",
+      "ratings": 4.4
+    },
+    {
+      "id": "15",
+      "Category": "electronics",
+      "productname": "Laptop",
+      "productprice": 1299.99,
+      "desc": "15.6\" gaming laptop with RTX 3060",
+      "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+      "ratings": 4.8
+    },
+    {
+      "id": "16",
+      "Category": "mobile",
+      "productname": "OnePlus 11",
+      "productprice": 699.99,
+      "desc": "Flagship killer with Snapdragon 8 Gen 2",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "ratings": 4.5
+    },
+    {
+      "id": "17",
+      "Category": "dress material",
+      "productname": "Denim Jacket",
+      "productprice": 79.99,
+      "desc": "Classic denim jacket for all seasons",
+      "thumbnail": "https://images.unsplash.com/photo-1578932750294-f5075e85f44a",
+      "ratings": 4.4
+    },
+    {
+      "id": "18",
+      "Category": "groceries",
+      "productname": "Green Tea",
+      "productprice": 9.99,
+      "desc": "Premium Japanese green tea, 100g",
+      "thumbnail": "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5",
+      "ratings": 4.2
+    },
+    {
+      "id": "19",
+      "Category": "mobile accessories",
+      "productname": "AirPods Pro",
+      "productprice": 249.99,
+      "desc": "Wireless earbuds with noise cancellation",
+      "thumbnail": "https://images.unsplash.com/photo-1588156979435-379b927089b6",
+      "ratings": 4.7
+    },
+    {
+      "id": "20",
+      "Category": "electronics",
+      "productname": "Gaming Monitor",
+      "productprice": 399.99,
+      "desc": "27\" 144Hz gaming monitor",
+      "thumbnail": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+      "ratings": 4.6
+    },
+    {
+      "id": "21",
+      "Category": "mobile",
+      "productname": "Xiaomi 13 Pro",
+      "productprice": 899.99,
+      "desc": "Premium Android phone with Leica cameras",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "ratings": 4.4
+    },
+    {
+      "id": "22",
+      "Category": "dress material",
+      "productname": "Wool Sweater",
+      "productprice": 69.99,
+      "desc": "Warm wool sweater for winter",
+      "thumbnail": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633",
+      "ratings": 4.3
+    },
+    {
+      "id": "23",
+      "Category": "groceries",
+      "productname": "Organic Coffee",
+      "productprice": 14.99,
+      "desc": "Premium organic coffee beans, 250g",
+      "thumbnail": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
+      "ratings": 4.6
+    },
+    {
+      "id": "24",
+      "Category": "mobile accessories",
+      "productname": "Phone Gimbal",
+      "productprice": 89.99,
+      "desc": "3-axis stabilizer for smartphones",
+      "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90",
+      "ratings": 4.5
+    },
+    {
+      "id": "25",
+      "Category": "electronics",
+      "productname": "Mechanical Keyboard",
+      "productprice": 129.99,
+      "desc": "RGB mechanical gaming keyboard",
+      "thumbnail": "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+      "ratings": 4.7
+    },
+    {
+      "id": "26",
+      "Category": "mobile",
+      "productname": "Nothing Phone",
+      "productprice": 599.99,
+      "desc": "Unique design with glyph interface",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "ratings": 4.3
+    },
+    {
+      "id": "27",
+      "Category": "dress material",
+      "productname": "Leather Jacket",
+      "productprice": 199.99,
+      "desc": "Classic leather biker jacket",
+      "thumbnail": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+      "ratings": 4.6
+    },
+    {
+      "id": "28",
+      "Category": "groceries",
+      "productname": "Chia Seeds",
+      "productprice": 8.99,
+      "desc": "Organic chia seeds, 500g",
+      "thumbnail": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55",
+      "ratings": 4.4
+    },
+    {
+      "id": "29",
+      "Category": "mobile accessories",
+      "productname": "Car Mount",
+      "productprice": 24.99,
+      "desc": "Universal car phone holder",
+      "thumbnail": "https://images.unsplash.com/photo-1615751072497-5f5169febe17",
+      "ratings": 4.2
+    },
+    {
+      "id": "30",
+      "Category": "electronics",
+      "productname": "Wireless Mouse",
+      "productprice": 49.99,
+      "desc": "Ergonomic wireless gaming mouse",
+      "thumbnail": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46",
+      "ratings": 4.5
+    },
+    {
+      "id": "31",
+      "Category": "mobile",
+      "productname": "Motorola Edge",
+      "productprice": 699.99,
+      "desc": "5G smartphone with curved display",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "ratings": 4.2
+    },
+    {
+      "id": "32",
+      "Category": "dress material",
+      "productname": "Cotton Shirt",
+      "productprice": 39.99,
+      "desc": "Classic cotton formal shirt",
+      "thumbnail": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+      "ratings": 4.4
+    },
+    {
+      "id": "33",
+      "Category": "groceries",
+      "productname": "Almonds",
+      "productprice": 16.99,
+      "desc": "Raw almonds, 500g pack",
+      "thumbnail": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46",
+      "ratings": 4.6
+    },
+    {
+      "id": "34",
+      "Category": "mobile accessories",
+      "productname": "Screen Protector",
+      "productprice": 9.99,
+      "desc": "Tempered glass screen guard",
+      "thumbnail": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb",
+      "ratings": 4.3
+    },
+    {
+      "id": "35",
+      "Category": "electronics",
+      "productname": "Webcam",
+      "productprice": 79.99,
+      "desc": "1080p HD webcam with microphone",
+      "thumbnail": "https://images.unsplash.com/photo-1587826080692-f439a6270cba",
+      "ratings": 4.4
+    },
+    {
+      "id": "36",
+      "Category": "mobile",
+      "productname": "Realme GT",
+      "productprice": 499.99,
+      "desc": "Budget flagship with great performance",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "ratings": 4.3
+    },
+    {
+      "id": "37",
+      "Category": "dress material",
+      "productname": "Palazzo Pants",
+      "productprice": 29.99,
+      "desc": "Comfortable wide-leg palazzo",
+      "thumbnail": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1",
+      "ratings": 4.2
+    },
+    {
+      "id": "38",
+      "Category": "groceries",
+      "productname": "Greek Yogurt",
+      "productprice": 4.99,
+      "desc": "Plain Greek yogurt, 500g",
+      "thumbnail": "https://images.unsplash.com/photo-1488477181946-6428a0291777",
+      "ratings": 4.5
+    },
+    {
+      "id": "39",
+      "Category": "mobile accessories",
+      "productname": "Ring Light",
+      "productprice": 34.99,
+      "desc": "10\" LED ring light with stand",
+      "thumbnail": "https://images.unsplash.com/photo-1603574670812-d24560880210",
+      "ratings": 4.4
+    },
+    {
+      "id": "40",
+      "Category": "electronics",
+      "productname": "Smart Watch",
+      "productprice": 199.99,
+      "desc": "Fitness tracking smartwatch",
+      "thumbnail": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a",
+      "ratings": 4.6
+    },
+    {
+      "id": "41",
+      "Category": "mobile",
+      "productname": "POCO F5",
+      "productprice": 399.99,
+      "desc": "Mid-range powerhouse smartphone",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "ratings": 4.4
+    },
+    {
+      "id": "42",
+      "Category": "dress material",
+      "productname": "Chiffon Dress",
+      "productprice": 69.99,
+      "desc": "Flowy chiffon maxi dress",
+      "thumbnail": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+      "ratings": 4.3
+    },
+    {
+      "id": "43",
+      "Category": "groceries",
+      "productname": "Mixed Nuts",
+      "productprice": 22.99,
+      "desc": "Premium mixed nuts, 750g",
+      "thumbnail": "https://images.unsplash.com/photo-1599599810769-bcde5a160d32",
+      "ratings": 4.7
+    },
+    {
+      "id": "44",
+      "Category": "mobile accessories",
+      "productname": "Bluetooth Earphones",
+      "productprice": 39.99,
+      "desc": "Wireless neckband earphones",
+      "thumbnail": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46",
+      "ratings": 4.2
+    },
+    {
+      "id": "45",
+      "Category": "electronics",
+      "productname": "Soundbar",
+      "productprice": 299.99,
+      "desc": "2.1 channel soundbar with subwoofer",
+      "thumbnail": "https://images.unsplash.com/photo-1545454675-3531b543be5d",
+      "ratings": 4.5
+    },
+    {
+      "id": "46",
+      "Category": "mobile",
+      "productname": "Vivo V27",
+      "productprice": 449.99,
+      "desc": "Stylish phone with color-changing back",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "ratings": 4.3
+    },
+    {
+      "id": "47",
+      "Category": "dress material",
+      "productname": "Printed Scarf",
+      "productprice": 19.99,
+      "desc": "Lightweight printed summer scarf",
+      "thumbnail": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d",
+      "ratings": 4.1
+    },
+    {
+      "id": "48",
+      "Category": "groceries",
+      "productname": "Dark Chocolate",
+      "productprice": 6.99,
+      "desc": "70% cocoa dark chocolate bar",
+      "thumbnail": "https://images.unsplash.com/photo-1548907040-4baa42d10919",
+      "ratings": 4.6
+    },
+    {
+      "id": "49",
+      "Category": "mobile accessories",
+      "productname": "Selfie Stick",
+      "productprice": 19.99,
+      "desc": "Bluetooth selfie stick with tripod",
+      "thumbnail": "https://images.unsplash.com/photo-1521150932951-303a95503ed9",
+      "ratings": 4
+    },
+    {
+      "id": "50",
+      "Category": "electronics",
+      "productname": "Air Purifier",
+      "productprice": 199.99,
+      "desc": "HEPA air purifier for large rooms",
+      "thumbnail": "https://images.unsplash.com/photo-1605794485736-77e54bf3caec",
+      "ratings": 4.7
+    }
+  ]
+}

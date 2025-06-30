@@ -1,0 +1,84 @@
+{
+  "Admin": [
+    
+    {
+      "id": "ec14",
+      "name": "shahil",
+      "email": "Shahik@gmail.com",
+      "password": "S1234",
+      "phone": "1234567890"
+    },
+   
+    
+    {
+      "id": "c897",
+      "name": "uyyalavishnu",
+      "email": "vishnubharadwajuyyala@gmail.com",
+      "password": "vishnu@102003",
+      "phone": "9493715744"
+    }
+  ],
+  "users": [
+    {
+      "id": "f50b",
+      "name": "Uyyalavishnu",
+      "email": "vishnubharadwaj@gmail.com",
+      "password": "vishnu@102003",
+      "phone": "9391618921"
+    },
+    {
+      "id": "89bb",
+      "name": "vishnubharadwaj",
+      "email": "vishnubharadwajuyyala@gmail.com",
+      "password": "vishnu@45",
+      "phone": "9391618921"
+    }
+  ],
+  "Product": [
+    {
+      "id": "d66f",
+      "Category": "Mobile",
+      "productname": "Realme",
+      "productprice": "9999.99",
+      "desc": "Apple iPhone 13 (128GB) - Midnight",
+      "thumbnail": "https://www.amazon.in/gp/product/B09G9HD6PD/ref=s9_bw_cg_Budget_3b1_w?pf_rd_m=AT95IG9ONZD7S&pf_rd_s=merchandised-search-3&pf_rd_r=051VRQJ5G4FT6WV1PTM6&pf_rd_t=101&pf_rd_p=73448db6-3507-4bf0-bb8c-287bee2c0bb9&pf_rd_i=1389401031",
+      "ratings": "5"
+    },
+    {
+      "id": "5eb3",
+      "Category": "Mobile",
+      "productname": "POCO M6 5G",
+      "productprice": "24000.99",
+      "desc": "POCO M6 5G (Orion Blue, 64 GB)",
+      "thumbnail": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/i/2/-original-imah4gzvrgwnayrb.jpeg?q=70",
+      "ratings": "5"
+    },
+    {
+      "id": "1030",
+      "Category": "Mobile",
+      "productname": "POCO M6 5G",
+      "productprice": "24000.99",
+      "desc": "POCO M6 5G (Orion Blue, 64 GB)",
+      "thumbnail": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=70",
+      "ratings": "4.5"
+    },
+    {
+      "id": "3832",
+      "Category": "Mobile",
+      "productname": "MOTOROLA G85",
+      "productprice": "22500.99",
+      "desc": "Motorola G85 5G (Olive Green, 128 GB)  (8 GB RAM)",
+      "thumbnail": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=70",
+      "ratings": "5"
+    },
+    {
+      "id": "2818",
+      "Category": "Mobile",
+      "productname": "OPPO RENO 12 PRO 5G",
+      "productprice": "36500.99",
+      "desc": "OPPO Reno 12 Pro 5G (Manish Malhotra Limited Edition, 256 GB)  (12 GB RAM)",
+      "thumbnail": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/a/s/-original-imah4zgmaxh8qn8a.jpeg?q=70",
+      "ratings": "5"
+    }
+  ]
+}

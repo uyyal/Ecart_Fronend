@@ -1,0 +1,151 @@
+/* AdminDashBoard.css */
+
+.AdminDasboard {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 60px; /* to account for fixed navbar */
+  background: #f7f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+.home-page {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.home-image {
+  flex: 1;
+  text-align: center;
+}
+
+.ecommerce-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-content {
+  flex: 1;
+  text-align: left;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.cta {
+  text-align: left;
+}
+
+.shop-now-button {
+  background-color: #2575fc;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.shop-now-button:hover {
+  background-color: #1a5ed8;
+}
+
+/* Tablet (768px) */
+@media screen and (max-width: 768px) {
+  .home-page {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .home-content {
+    text-align: center;
+  }
+
+  .cta {
+    text-align: center;
+  }
+
+  .home-content h1 {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+  }
+
+  .shop-now-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Mobile L (425px) */
+@media screen and (max-width: 425px) {
+  .home-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .home-content p {
+    font-size: 0.95rem;
+  }
+
+  .shop-now-button {
+    font-size: 0.95rem;
+    padding: 8px 18px;
+  }
+}
+
+/* Mobile M (375px) */
+@media screen and (max-width: 375px) {
+  .home-content h1 {
+    font-size: 1.3rem;
+  }
+
+  .home-content p {
+    font-size: 0.9rem;
+  }
+
+  .shop-now-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+/* Mobile S (320px) */
+@media screen and (max-width: 320px) {
+  .home-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .home-content p {
+    font-size: 0.85rem;
+  }
+
+  .shop-now-button {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+  }
+}

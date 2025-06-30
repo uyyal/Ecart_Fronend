@@ -1,0 +1,92 @@
+.addproducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px;
+    margin-top: 80px;
+  }
+  
+  .Adminproducts {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 500px; /* Max width for responsiveness */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fieldset-grid {
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .label5 {
+    font-weight: 600;
+    color: #333333;
+  }
+  
+  .input5, .textarea, .select-field {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555555;
+    transition: border-color 0.3s;
+  }
+  
+  .input5:focus, 
+  .textarea:focus, 
+  .select-field:focus {
+    border-color: #007bff; /* Focus effect */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background: #0056b3; /* Darker blue on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .Adminproducts {
+      padding: 15px 20px;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .fieldset-grid {
+      gap: 10px;
+    }
+  
+    .btn-primary {
+      font-size: 14px;
+    }
+    .addproducts{
+    margin-top: 150px;
+    }
+  }
+  

@@ -1,0 +1,142 @@
+/* Container for the entire admin body */
+#AdminBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #9face6); /* Gradient background */
+    padding: 20px;
+}
+
+/* Login card styling */
+.AdminLogin {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    animation: fadeIn 1s ease-in-out;
+    text-align: center;
+}
+
+/* Welcome text styling */
+.big1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.img1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    animation: float 3s ease-in-out infinite; /* Floating effect for dynamic visuals */
+}
+
+/* Form labels */
+.label1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input fields */
+.input1 {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #74ebd5;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.input1:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 10px rgba(106, 17, 203, 0.5);
+    outline: none;
+}
+
+/* Login button */
+.btn1 {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #ffffff;
+    border: none;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(106, 17, 203, 0.4);
+}
+
+/* Signup link */
+.span1 a {
+    font-size: 16px;
+    color: #2575fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.span1 a:hover {
+    color: #6a11cb;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .AdminLogin {
+        padding: 20px;
+    }
+    .big1 {
+        font-size: 20px;
+    }
+    .btn1 {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .AdminLogin {
+        padding: 15px;
+    }
+    .big1 {
+        font-size: 18px;
+    }
+    .btn1 {
+        width: 90px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+

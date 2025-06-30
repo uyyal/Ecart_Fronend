@@ -1,0 +1,90 @@
+.field {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust columns based on available space */
+    gap: 40px; /* Reduce gap slightly for smaller screens */
+    justify-content: center;
+    align-items: center;
+}
+
+.updateproducts {
+    width: 90%; /* Use percentage for responsiveness */
+    max-width: 500px; /* Maintain a maximum width */
+    padding: 20px;
+
+    margin: 20px auto; /* Center the form on smaller screens */
+    background-color: antiquewhite;
+    margin-top: 100px;
+
+}
+
+/* Style inputs consistently across devices */
+.field, .input6, select, textarea {
+    border: none;
+    width: 100%; /* Inputs take full width of their container */
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+}
+
+.label6 {
+    font-size: 18px; /* Slightly reduce font size for smaller screens */
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.input6, textarea {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Button adjustments for responsiveness */
+.updateproducts button {
+    width: 100%; /* Full width for smaller devices */
+    max-width: 200px; /* Maintain a reasonable button size */
+    height: 40px;
+    margin: 10px auto; /* Center button horizontally */
+    display: block; /* Make button a block element */
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+    .field {
+        grid-template-columns: 1fr; /* Stack fields vertically */
+        gap: 15px;
+    }
+
+    .updateproducts {
+        width: 95%; /* Utilize more space on smaller screens */
+        padding: 15px;
+    }
+
+    .label6 {
+        font-size: 16px;
+    }
+
+    .input6, textarea {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .field {
+        grid-template-columns: 1fr; /* Ensure single-column layout for very small screens */
+        gap: 10px;
+    }
+
+    .updateproducts {
+        margin-top: 200px;
+        padding: 10px;
+    }
+
+    .label6 {
+        font-size: 14px;
+    }
+
+    .input6, textarea {
+        font-size: 12px;
+    }
+
+    .updateproducts button {
+        height: 35px;
+    }
+}
