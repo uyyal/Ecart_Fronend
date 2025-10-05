@@ -8,7 +8,7 @@ import UpdateProducts from './UpdateProducts'
 import '../Styles/AdminHomepage.css'
 import AdminDashBoard from './AdminDashBoard'
 import AccountInfo from './AccountInfo'
-import Landing from './Landing'
+// import Landing from './Landing'
 
 
 
@@ -27,7 +27,7 @@ const AdminHomePage = () =>
         <Route path="/AdminViewItems" element={<AdminViewItems/>}></Route>
         <Route path='/UpdateProducts/:id' element={<UpdateProducts/>}></Route>
         <Route path="/AccountInfo" element={<AccountInfo />} />
-        <Route path="/" element={<Landing />} />
+        {/* <Route path="/" element={<Landing />} /> */}
        </Routes>
     </div>
     

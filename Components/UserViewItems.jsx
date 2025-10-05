@@ -28,7 +28,8 @@ const UserViewItems = () => {
               <span id='cost2'>
                 M.R.P:<big> <strike>{product.productprice}</strike> </big>
               </span>
-              <h5>Offer price: 12% off ₹{Math.round(product.productprice * 0.88)}</h5>
+          
+              <h5>Offer price: 12% off ₹{Math.round(Number(product.productprice) * 0.88)}</h5>
               <p>Description: {product.desc}</p>
               <span>Ratings: <b>{product.ratings}*</b></span>
               <br /><br />

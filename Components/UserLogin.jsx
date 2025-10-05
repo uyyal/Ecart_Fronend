@@ -4,25 +4,29 @@ import { toast } from 'react-toastify';
 import '../Styles/UserLogin.css';
 
 const UserLogin = () => {
-  const [Email, setEmail] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-  const [user, setUser] = useState([]);
+  const [users, setUsers] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
-    async function fetchusers() {
-      let data1 = await fetch('http://localhost:8080/users');
-      let res = await data1.json();
-      setUser(res);
+    async function fetchUsers() {
+      try {
+        let data1 = await fetch('http://localhost:8080/users');
+        let res = await data1.json();
+        setUsers(res);
+      } catch {
+        toast.error("Failed to fetch users");
+      }
     }
-    fetchusers();
+    fetchUsers();
   }, []);
 
-  function CreateUser(e) {
+  function handleLogin(e) {
     e.preventDefault();
-    const val = user.filter((y) => y.email === Email && y.password === password);
-    if (val.length > 0) {
+    const found = users.find((y) => y.email === email && y.password === password);
+    if (found) {
       toast.success("User Login Successful");
       navigate('/UserHomepage');
     } else {
@@ -41,7 +45,7 @@ const UserLogin = () => {
       </div>
 
       <div className='UserLogin'>
-        <form className='form2' onSubmit={CreateUser}>
+        <form className='form2' onSubmit={handleLogin}>
           <img
             className='img2'
             src="https://th.bing.com/th?q=Kid+Avatar+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
@@ -53,7 +57,7 @@ const UserLogin = () => {
           <input
             className='input2'
             type="email"
-            value={Email}
+            value={email}
             onChange={(g) => setEmail(g.target.value)}
             placeholder='Enter Your Email'
             required
@@ -84,8 +88,8 @@ const UserLogin = () => {
             </span>
           </div>
 
-          <button className='btn2' type='submit'>Login</button>
-          <span className='spann'>Click here to <Link to='/Usersignup'>Signup</Link></span>
+          <button className='btn2' type='submit' disabled={!email || !password}>Login</button>
+          <span className='spann'>Click here to <Link to='/UserSignup'>Signup</Link></span>
         </form>
       </div>
     </div>

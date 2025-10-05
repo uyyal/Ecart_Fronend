@@ -37,7 +37,7 @@ const AdminAddProducts = () => {
                 <select className='select-field' required value={Category} onChange={(v)=>{setCategory(v.target.value)}}>
                     <option >Dress Material</option>
                     <option>Mobile</option>
-                    <option>Mobile Accesories</option>
+                    <option>Mobile Accessories</option>
                     <option >Electronics</option>
                     <option >Groceries</option>
                 </select>

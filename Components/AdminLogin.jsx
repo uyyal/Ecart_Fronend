@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import { Link, useNavigate } from 'react-router-dom';
 
 const AdminLogin = () => {
-  const [Email, setEmail] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [admin, setAdmin] = useState([]);
@@ -25,8 +25,8 @@ const AdminLogin = () => {
 
   const login = (e) => {
     e.preventDefault();
-    const val = admin.filter((x) => x.email === Email && x.password === password);
-    if (val.length > 0) {
+    const found = admin.find((x) => x.email === email && x.password === password);
+    if (found) {
       toast.success("Login Successfully");
       navigate('/AdminHomePage');
     } else {
@@ -49,7 +49,7 @@ const AdminLogin = () => {
           <input
             className='input1'
             type="email"
-            value={Email}
+            value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder='Enter Your Email'
             required
@@ -80,7 +80,7 @@ const AdminLogin = () => {
             </span>
           </div>
           <br /><br />
-          <button type="submit" className='btn1'>Login</button>
+          <button type="submit" className='btn1' disabled={!email || !password}>Login</button>
           <br /><br />
           <span className='span1'><Link to='/AdminSignUp'>Create New Account</Link></span>
         </form>

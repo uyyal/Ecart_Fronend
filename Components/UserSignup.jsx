@@ -1,24 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Styles/UserSignup.css';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
-const Usersignup = () => {
+const UserSignup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [phone, setPhone] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-
+  const [users, setUsers] = useState([]);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    axios.get('http://localhost:8080/users')
+      .then(res => setUsers(res.data))
+      .catch(() => setUsers([]));
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (!name || !email || !password || !phone) {
       toast.error("All fields are required!");
+      return;
+    }
+
+    // Duplicate email check
+    const exists = users.some(u => u.email === email);
+    if (exists) {
+      toast.error("Email already exists!");
+      return;
+    }
+
+    // Phone validation
+    if (!/^\d{10}$/.test(phone)) {
+      toast.error("Phone number must be 10 digits");
       return;
     }
 
@@ -101,11 +120,11 @@ const Usersignup = () => {
             </div>
           </div>
 
-          <button className='btn7' type='submit'>Register</button>
+          <button className='btn7' type='submit' disabled={!name || !email || !password || !phone}>Register</button>
         </form>
       </div>
     </div>
   );
 };
 
-export default Usersignup;
+export default UserSignup;
