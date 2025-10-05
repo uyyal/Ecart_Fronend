@@ -13,7 +13,7 @@ const AdminLogin = () => {
   useEffect(() => {
     async function fetchAdmin() {
       try {
-        const data = await fetch('http://localhost:8080/Admin');
+        const data = await fetch('https://ecart-backend-3kap.onrender.com/Admin');
         const res = await data.json();
         setAdmin(res);
       } catch (err) {

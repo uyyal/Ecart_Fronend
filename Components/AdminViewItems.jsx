@@ -22,7 +22,7 @@ const AdminViewItems = () => {
   }, [force]);
 
   function deleteProduct(id, productname) {
-    axios.delete(`http://localhost:8080/Items/${id}`)
+    axios.delete(`https://ecart-backend-3kap.onrender.com/Items/${id}`)
       .then(() => {
         toast.success(`${productname} Deleted Successfully`);
         setForce(force + 1);

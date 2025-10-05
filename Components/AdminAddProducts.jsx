@@ -14,7 +14,7 @@ const AdminAddProducts = () => {
 
   function addProduct(e){
     e.preventDefault();
-    axios.post("http://localhost:8080/Items",data)
+    axios.post("https://ecart-backend-3kap.onrender.com/Items",data)
     .then((res)=>{
          console.log(res);
          toast.success("Data added successfully");

@@ -18,7 +18,7 @@ const AdminSignUp = () => {
 
     const data = { name, email, password, phone };
 
-    axios.post('http://localhost:8080/Admin', data)
+    axios.post('https://ecart-backend-3kap.onrender.com/Admin', data)
       .then((res) => {
         toast.success("Successfully created account!");
         navigate('/AdminLogin');

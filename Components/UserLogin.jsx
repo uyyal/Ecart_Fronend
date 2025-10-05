@@ -13,7 +13,7 @@ const UserLogin = () => {
   useEffect(() => {
     async function fetchUsers() {
       try {
-        let data1 = await fetch('http://localhost:8080/users');
+        let data1 = await fetch('https://ecart-backend-3kap.onrender.com/users');
         let res = await data1.json();
         setUsers(res);
       } catch {

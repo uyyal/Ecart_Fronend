@@ -15,7 +15,7 @@ const UserSignup = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:8080/users')
+    axios.get('https://ecart-backend-3kap.onrender.com/users')
       .then(res => setUsers(res.data))
       .catch(() => setUsers([]));
   }, []);
@@ -43,7 +43,7 @@ const UserSignup = () => {
 
     const userData = { name, email, password, phone };
 
-    axios.post('http://localhost:8080/users', userData)
+    axios.post('https://ecart-backend-3kap.onrender.com/users', userData)
       .then(() => {
         toast.success("User registered successfully");
         navigate('/UserLogin');

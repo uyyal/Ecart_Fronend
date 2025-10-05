@@ -8,7 +8,7 @@ const AccountInfo = () => {
 
   useEffect(() => {
     // Fetch all items
-    axios.get('http://localhost:8080/Items')
+    axios.get('https://ecart-backend-3kap.onrender.com/Items')
       .then((res) => {
         setItems(res.data);
         setLoading(false);

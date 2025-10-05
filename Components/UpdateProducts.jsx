@@ -20,7 +20,7 @@ function UpdateProducts() {
   // Fetch the existing product details
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/items/${id}`)
+      .get(`https://ecart-backend-3kap.onrender.com/items/${id}`)
       .then((res) => {
         const product = res.data;
         setProductname(product.productname || '');

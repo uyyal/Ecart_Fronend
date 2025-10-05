@@ -9,7 +9,7 @@ const UserViewItems = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:8080/Items')
+      .get('https://ecart-backend-3kap.onrender.com/Items')
       .then((res) => setProducts(res.data))
       .catch((err) => console.log(err));
   }, []);
